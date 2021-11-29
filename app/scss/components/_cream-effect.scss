@@ -1,0 +1,23 @@
+.cream-effect{
+  &__present{
+    margin-bottom: 30px;
+  }
+  &__list{
+    padding: 0 15px;
+    margin-bottom: 50px;
+  }
+  &__item{
+    &:not(:last-child){
+      margin-bottom: 15px;
+    }
+    &::before{
+      content: '';
+      width: 28px;
+      height: 28px;
+      margin-right: 20px;
+      flex-shrink: 0;
+      background-image: url('../images/dest/icons/check.svg');
+      @extend %bg-cover;
+    }
+  }
+}

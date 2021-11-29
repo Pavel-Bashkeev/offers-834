@@ -1,0 +1,27 @@
+// Colors
+$black: #000000;
+$white: #ffffff;
+$section-bg: #ECC9D0;
+$default: #1E1E1E;
+$accent: #9F2F75;
+
+// Colors
+// Font
+:root {
+  --font: 'Raleway';
+  --font-second: 'Roboto';
+}
+
+// Font
+
+%bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+%bg-contain {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

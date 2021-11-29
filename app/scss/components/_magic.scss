@@ -1,0 +1,43 @@
+.magic{
+  background: #FFF9F9;
+  &__img{
+    margin-bottom: 30px;
+  }
+  &-info{
+    padding: 0 15px;
+    margin-bottom: 35px;
+    &__text{
+      font:400 20px/24px  var(--font);
+      color: $black;
+      &:not(:last-child){
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+.magic-benefits{
+  &__title{
+    max-width: 320px;
+    margin: 0 auto 30px;
+  }
+  &__items{
+    padding: 0 15px;
+  }
+  &__item{
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+    &-box{
+      width: 127px;
+      height: 127px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 20px;
+      flex-shrink: 0;
+    }
+    &-text{
+      font:400 20px/24px var(--font);
+      color: $black;
+    }
+  }
+}

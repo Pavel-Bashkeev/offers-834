@@ -1,0 +1,14 @@
+.working{
+  background: #FFF9F9;
+  padding-bottom: 0;
+  &-info{
+    background: linear-gradient(180deg, rgba(255, 249, 249, 0) 0%, #FFF9F9 23.54%);
+    padding: 132px 15px 38px;
+    margin-top: -132px;position: relative;z-index: 1;
+    &__text{
+      &:not(:last-child){
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

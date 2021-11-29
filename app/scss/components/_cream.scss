@@ -1,0 +1,47 @@
+.cream{
+  background: #FFF9F9;
+  &-present{
+    margin-bottom: 30px;
+  }
+  &-info{
+    padding: 0 15px;
+    margin-bottom: 20px;
+    &__text{
+      &:not(:last-child){
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+.cream-zone{
+  &__title{
+    max-width: 320px;
+    margin: 0 auto 30px;
+  }
+  &__items{
+    gap:28px 38px; 
+  }
+  &__item{
+    &-box{
+      width: 114px;
+      height: 114px;
+      border-radius: 50%;
+      overflow:hidden;
+      margin-bottom: 26px;
+    }
+    &-text{
+      font:700 20px/24px var(--font);
+      color: $black;
+    }
+  }
+}
+@media (max-width:361px) {
+  .cream-present__product{
+    width: 140px;
+  }
+}
+@media (max-width:320px) {
+  .cream-present__product{
+    width: 120px;
+  }
+}
